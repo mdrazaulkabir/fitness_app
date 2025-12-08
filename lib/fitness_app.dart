@@ -1,3 +1,4 @@
+import 'package:fitness_app/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 class FitnessApp extends StatelessWidget {
@@ -6,8 +7,11 @@ class FitnessApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
+
       ),
+      home: SplashScreen(),
     );
   }
 }
